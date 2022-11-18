@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;}
+a,a:link,a:active,a:hover,a:visited{text-decoration: none; color: #333;}
+ol,ul,li{list-style: none;}
+body{color: #333; background-color: #fff;}
+button{
+    border: none;
+    outline: none;
+    color: #333;
+    background-color: #fff;
+}

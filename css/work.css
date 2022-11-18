@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* section{height: 1200px;} */
+section{
+    padding: 80px 0px 0px;
+    box-sizing: border-box;
+}
+
+section>.sectionInner{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0 0;
+}
+
+section>.sectionInner>h3{
+    margin-bottom: 40px;
+    font-family: 'Recipekorea';
+    font-size: 36px;
+}
+/* 검색 필터 */
+section>.sectionInner>.search_filter{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 40px;
+    margin-bottom: 48px;
+}
+section>.sectionInner>.search_filter>.filter_container{
+    display: flex;
+    justify-content: space-between;
+    width: 394px;
+}
+section>.sectionInner>.search_filter>.filter_container>.filter{
+    width: 126px;
+    height: 40px;
+    padding: 10px 16px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.triangle {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    margin-left: 12px;
+    border-top: 12px solid #666666;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+  }
+  section>.sectionInner>.search_filter>.filter_container>.filter02>.triangle{margin-left: 28px;}
+/* 검색 */
+section>.sectionInner>.search_filter>.search{
+    width: 360px;
+    height: 40px;
+    padding: 10px 16px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* 작품 */
+
+.sectionInner>.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 78px;
+}
+.sectionInner>.cardContainer>.card{
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 260px;
+    height: 388px;
+    margin-bottom: 58px;
+    border-radius: 16px;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+}
+.sectionInner>.cardContainer>.card>img{
+    width: 100%;
+    height: 260px;
+}
+.sectionInner>.cardContainer>.card>h5{
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-bottom: 16px;
+    font-family: 'Recipekorea';
+    font-size: 20px;
+}
+.card>.artlist{
+    display: flex;
+    margin-left: 16px;
+    margin-top: 38px;
+}
+.card>.artlist>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.card>.artlist>span{
+    margin-left: 8px;
+    line-height: 32px;
+    font-size: 12px;
+}
+.card>span{
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+/* page indicater */
+section>.sectionInner>.page_num{
+    display: flex;
+    justify-content: space-between;
+    width: 128px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+section>.sectionInner>.page_num>a:hover{
+    text-decoration: underline;
+}

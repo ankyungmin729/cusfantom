@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* sectionInner */
+.sectionInner{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* section01 */
+.section01{
+    width: 100%;
+    background: #FDC4FA;
+    background: -webkit-radial-gradient(70% 40%, farthest-corner, #FFE2EF, #FDC4FA, #ad99ff);
+    background:    -moz-radial-gradient(70% 40%, farthest-corner, #FFE2EF, #FDC4FA, #ad99ff);
+    background:      -o-radial-gradient(70% 40%, farthest-corner, #FFE2EF, #FDC4FA, #ad99ff);
+    background:         radial-gradient(farthest-corner at 70% 40%, #FFE2EF, #FDC4FA, #ad99ff);
+}
+.section01>.sectionInner{
+    position: relative;
+    padding: 240px 0 0px;
+}
+.section01>.sectionInner>.mainBannerText>h3{
+    margin-bottom: 72px;
+    font-family: 'Recipekorea';
+    font-size: 44px;
+}
+.section01>.sectionInner>.mainBannerText>.con1,
+.section01>.sectionInner>.mainBannerText>.con2{
+    margin-bottom: 24px;
+}
+.section01>.sectionInner>.mainBannerText>.con3{
+    margin-bottom: 200px;
+}
+.section01>.sectionInner .subtit{
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+.section01>.sectionInner .num{
+    font-size: 26px;
+    font-weight: 800;
+}
+.section01>.sectionInner .num>span{
+    font-weight: normal;
+    font-size: 20px;
+}
+.section01>.sectionInner>.mainBannerImg{
+    position: absolute;
+    right: 0;
+    top: 140px;
+}
+.section01>.sectionInner>.mainBannerImg>.shoes{
+    width: 927px;
+    height: 649px;
+    background: url(../images/shoes01.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.section01>.quickMenuSection{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(255,255,255,0.56);
+}
+.section01>.quickMenuSection>.quickMenuInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.section01>.quickMenuSection>.quickMenuInner>.quickMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 380px;
+    height: 140px;
+    padding: 36px 28px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color: #fff;
+    transition: all .4s;
+}
+.section01>.quickMenuSection>.quickMenuInner>.quickMenu:hover{
+    box-shadow: rgba(0,0,0,.3) 0px 6px 20px;
+}
+.section01>.quickMenuSection>.quickMenuInner>.quickMenu>.quickImg{width: 84px;height: 84px;}
+.section01>.quickMenuSection>.quickMenuInner>.quickMenu:nth-child(1)>.quickImg{background: url(../images/trophy.png) no-repeat;background-size: contain;}
+.section01>.quickMenuSection>.quickMenuInner>.quickMenu:nth-child(2)>.quickImg{background: url(../images/work.png) no-repeat;background-size: contain;}
+.section01>.quickMenuSection>.quickMenuInner>.quickMenu:nth-child(3)>.quickImg{background: url(../images/maket.png) no-repeat;background-size: contain;}
+.section01>.quickMenuSection>.quickMenuInner>.quickMenu>.quickText>h4{font-size: 20px;margin-bottom: 6px;font-family: 'Recipekorea';}
+/* section02 */
+.section02{
+    /* height: 2000px; */
+}
+
+.section02>.sectionInner{
+    padding: 0 0 120px;
+}
+.section02>.sectionInner>article{
+    margin-top: 160px;
+}
+.section02>.sectionInner>article>.article_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 40px;
+}
+.section02>.sectionInner>article>.article_top>h4{
+    font-family: 'Recipekorea';
+    font-size: 32px;
+}
+.section02>.sectionInner>article>.article_top>.more{
+}
+.section02>.sectionInner>article>.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section02>.sectionInner>article>.cardContainer>.card{
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 380px;
+    height: 560px;
+    margin-bottom: 32px;
+    border-radius: 16px;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+}
+.section02>.sectionInner>article>.cardContainer>.card>img{
+    width: 100%;
+    height: 380px;
+}
+.section02>.sectionInner>article>.cardContainer>.card>h5{
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 16px;
+    font-family: 'Recipekorea';
+    font-size: 20px;
+}
+.section02 .card>.artlist{
+    display: flex;
+    margin-left: 24px;
+}
+.section02 .card>.artlist>img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.section02 .card>.artlist>span{
+    margin-left: 14px;
+    line-height: 38px;
+}
+.section02 .card>span{
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    font-weight: 800;
+}

@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+section{
+    box-sizing: border-box;
+}
+section>.sectionInner{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0 0;
+}
+section>.sectionInner h3{
+    margin-bottom: 40px;
+    font-family: 'Recipekorea';
+    font-size: 36px;
+}
+
+/* section01 */
+
+.section01{
+    height: 1140px;
+    padding: 80px 0 56px 0;
+}
+.section01 p{
+    font-family: 'Recipekorea';
+    font-size: 24px;
+}
+.section01>.sectionInner>ol{
+    position: relative;
+    width: 100%;
+    height: 388px;
+    margin: 64px 0 118px 0;
+    background-image: url(../images/order_bg.png);
+}
+.section01>.sectionInner>ol>li{
+    position: absolute;
+    font-family: 'Recipekorea';
+    font-size: 20px;
+}
+.section01>.sectionInner>ol>img{
+    position: absolute;
+}
+
+.section01>.sectionInner>ol>li:nth-child(1){top:107px;left: 138px;}
+.section01>.sectionInner>ol>li:nth-child(2){top:107px;left: 579px;}
+.section01>.sectionInner>ol>li:nth-child(3){top:107px;left: 913px;}
+.section01>.sectionInner>ol>li:nth-child(4){bottom: 16px;right: 64px;}
+.section01>.sectionInner>ol>li:nth-child(5){bottom: 32px;left: 612px;}
+.section01>.sectionInner>ol>li:nth-child(6){bottom: 16px;left: 169px;}
+
+.section01>.sectionInner>ol>img.order01{top:24px; left: 0;}
+.section01>.sectionInner>ol>img.order02{top:0; left: 684px;}
+.section01>.sectionInner>ol>img.order03{top:30px; right: 40px;}
+.section01>.sectionInner>ol>img.order04{top:260px; left: 796px;}
+.section01>.sectionInner>ol>img.order05{top:247px; left: 474px;}
+.section01>.sectionInner>ol>img.order06{top:256px; left: 31px;}
+
+
+
+.section01>.sectionInner>a{
+    display: block;
+    width: 392px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 148px;
+    font-family: 'Recipekorea';
+    font-size: 32px;
+    background-color: #B18BFF;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+}
+
+/* section02 */
+
+.section02{
+    height: 710px;
+    padding: 40px 0;
+}
+.section02>.sectionInner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section02>.sectionInner>.section_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 40px;
+}
+.section02>.sectionInner>.section_top>h3{
+    margin: 0 0;
+}
+.section02>.sectionInner>.section_top>.more{
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.section02>.sectionInner>article{
+    width: 594px;
+    height: 413px;
+    padding: 0px 26px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.section02>.sectionInner>article>.order_ing{
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    height: 88px;
+    margin: 24px 0;
+}
+.section02>.sectionInner>article>.order_ing>.leftInfo{}
+.section02>.sectionInner>article>.order_ing>.leftInfo>.day{
+    width: 138px;
+    height: 38px;
+    margin-bottom: 8px;
+    border-radius: 16px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #aaa;
+}
+.section02>.sectionInner>article>.order_ing>.leftInfo>.reward{
+    width: 138px;
+    height: 38px;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #FFE396;
+}
+
+.section02>.sectionInner>article>.order_ing>img{
+    width: 100px;
+    height: 84px;
+    border-radius: 16px;
+}
+.section02>.sectionInner>article>.order_ing>p{
+    display: block;
+    width: 180px;
+}
+
+
+
+/* section03 */
+
+.section03{
+    height: 880px;
+    padding: 80px 0 160px 0;
+}
+.section03>.sectionInner{
+    padding: 0 0;
+}
+.section03>.sectionInner> h3{
+    margin-bottom: 80px;
+}
+
+.section03 .reviewList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 512px;
+    /* border: 1px solid #000; */
+}
+.section03 .reviewList>a{
+    display: block;
+    width: 392px;
+    height: 248px;
+    margin-bottom: 12px;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 248px;
+    box-shadow: rgba(0,0,0,0.2) 0px 0px 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+.section03 .reviewList>a:nth-child(1){background-image: url(../images/product01.png);}
+.section03 .reviewList>a:nth-child(2){background-image: url(../images/product02.png);}
+.section03 .reviewList>a:nth-child(3){background-image: url(../images/product03.png);}
+.section03 .reviewList>a:nth-child(4){background-image: url(../images/product04.png);}
+.section03 .reviewList>a:nth-child(5){background-image: url(../images/product05.png);}
